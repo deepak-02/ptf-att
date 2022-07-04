@@ -130,7 +130,7 @@ import axios from 'axios'
 
       getTodayAttendence(){
   
-      axios.get('https://splendid-manatee-f07ab7.netlify.app/api/rest/recent'
+      axios.post('https://qr-scan3.herokuapp.com/api/rest/recent1'
  
       ).then((response)=>{
         this.list= response.data;
