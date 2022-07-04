@@ -130,7 +130,7 @@ import axios from 'axios'
 
       getTodayAttendence(){
   
-      axios.get('http://localhost:8080/api/rest/recent'
+      axios.get('https://62c278b0b640961e711076b9--splendid-manatee-f07ab7.netlify.app/api/rest/recent'
  
       ).then((response)=>{
         this.list= response.data;
